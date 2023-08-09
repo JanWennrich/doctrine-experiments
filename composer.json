@@ -1,0 +1,25 @@
+{
+    "name": "jan/doctrine-experiments",
+    "description": "Testing out various things with the Doctrine ORM and other Doctrine projects.",
+    "type": "project",
+    "require": {
+        "doctrine/orm": "^2.16"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jan\\DoctrineExperiments\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jan Wennrich",
+            "email": "jan.wennrich@pcsg.de"
+        }
+    ],
+    "minimum-stability": "stable",
+    "config": {
+        "platform": {
+            "php": "8.1"
+        }
+    }
+}
